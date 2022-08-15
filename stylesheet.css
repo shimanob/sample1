@@ -1,0 +1,52 @@
+:root {
+    --color-angry: #E52258;
+    --color-bad: #5622EE;
+    --color-sad: #ABDFFF;
+    --color-happy: #FFA12F;
+    --color-disgusted: #715D4B;
+    --color-surprised: #FFDE59;
+    --color-success: rgb(42, 157, 143);
+    --color-info: rgb(38, 70, 83);
+
+    --small: 0.5rem;
+}
+
+h3 {
+    color: white;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    padding: var(--small);
+    margin: var(--small);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.angry {
+    background-color: var(--color-angry);
+}
+.bad {
+    background-color: var(--color-bad);
+}
+.sad {
+    background-color: var(--color-sad);
+}
+.happy {
+    background-color: var(--color-happy);
+}
+.disgusted {
+    background-color: var(--color-disgusted);
+}
+.surprised {
+    background-color: var(--color-surprised);
+}
+
+.box:hover {
+    background-color: rgb(38, 70, 83, 0.7);
+}
